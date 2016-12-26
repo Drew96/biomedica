@@ -22,18 +22,18 @@
         <a href="tel:+375297692917">+375 (29) 76-929-17</a>
       </div>
     </div>
-    <nav class="main-nav">
-      <ul>
-        <li><a href="#">Главная</a></li>
-        <li><a href="#">Услуги</a></li>
-        <li><a href="#">Медицинские программы</a></li>
-        <li><a href="#">Цены</a></li>
-        <li><a href="#">О центре</a></li>
-        <li><a href="#">Контакты</a></li>
-        <li><a href="#">Оптовая торговля</a></li>
-      </ul>
-    </nav>
   </header>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">Услуги</a></li>
+      <li><a href="#">Медицинские программы</a></li>
+      <li><a href="#">Цены</a></li>
+      <li><a href="#">О центре</a></li>
+      <li><a href="#">Контакты</a></li>
+      <li><a href="#">Оптовая торговля</a></li>
+    </ul>
+  </nav>
   <main>
     <div class="slider">
       <div class="slide-1"></div>
@@ -41,8 +41,8 @@
       <div class="slide-3"></div>
     </div>
     <div class="services">
-      <div class="tile"><img src="" alt="" href=""></div>
-      <div class="tile"><img src="" alt="" href=""></div>
+      <div class="tile"><a href="#">Лабораторная диагностика</a></div>
+      <div class="tile"><a href="#">Дерматология</a></div>
       <div class="tile"><img src="" alt="" href=""></div>
       <div class="tile"><img src="" alt="" href=""></div>
       <div class="tile"><img src="" alt="" href=""></div>
@@ -85,45 +85,70 @@
               <option value="2">Невролог</option>
             </select>
           </div>
-
           <div class="field">
             <label for="clientname-field">Ваше имя:</label>
             <input type="text" name="name" id="clientname-field">
           </div>
-
           <div class="field">
-            <label for="clientphone-tel">Ваш телефон</label>
+            <label for="clientphone-tel">Ваш телефон:</label>
             <input type="tel" name="name" id="clientphone-field">
           </div>
-
           <div class="field">
-            <input type="submit" name="name" value="Записаться">
+            <input type="submit" name="name" value="Записаться" class="btn recording-btn">
           </div>
-
-
         </form>
       </div>
-
     </div>
     <div class="news">
       <h2>Наши новости</h2>
-      <div class="news-tile"></div>
-      <div class="news-tile"></div>
-      <div class="news-tile"></div>
+      <div class="news-wrapper clearfix">
+        <div class="news-tile tile-1">
+          <img class="news-img" src="img/news/news1.jpg">
+          <h3 class="news-title">Новые исследования методом полимеразной цепной реакции</h3>
+          <time class="news-date">01.12.2016</time>
+          <div class="news-text">Уважаемые пациенты! К Вашим услугам новые исследования методом полимеразной цепной реакции: HLA-типирование II класса. Узнать стоимость анализов можно, позвонив по телефонам нашего центра.</div>
+          <a href="#" class="btn news-btn">Подробнее</a>
+        </div>
+        <div class="news-tile tile-2">
+          <img class="news-img" src="img/news/news2.jpg">
+          <h3 class="news-title">Новые исследования методом полимеразной цепной реакции</h3>
+          <time class="news-date">01.12.2016</time>
+          <div class="news-text">Уважаемые пациенты! К Вашим услугам новые исследования методом полимеразной цепной реакции: HLA-типирование II класса. Узнать стоимость анализов можно, позвонив по телефонам нашего центра.</div>
+          <a href="#" class="btn news-btn">Подробнее</a>
+        </div>
+        <div class="news-tile tile-3">
+          <img class="news-img" src="img/news/news3.jpg">
+          <h3 class="news-title">Новые исследования методом полимеразной цепной реакции</h3>
+          <time class="news-date">01.12.2016</time>
+          <div class="news-text">Уважаемые пациенты! К Вашим услугам новые исследования методом полимеразной цепной реакции: HLA-типирование II класса. Узнать стоимость анализов можно, позвонив по телефонам нашего центра.</div>
+          <a href="#" class="btn news-btn">Подробнее</a>
+        </div>
+      </div>
     </div>
   </main>
   <div class="map">
-
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=AZT-ufkTiqWs3V_jFzF0UnDbXfhmSR_f&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
   </div>
   <div class="footer">
-    <div class="footer-logo">
-
+    <div class="footer-adress">
+      <b>Медицинский центр «Биомедика плюс»</b>
+      <br>
+      Минск, ул. Червякова, д. 64
+      <br>
+      +375 (17) 288-77-44
+      <br>
+      +375 (29) 17-929-17
+      <br>
+      +375 (29) 76-929-17
+      <br>
+      <a href="mailto:info@biomedica.by">info@biomedica.by</a>
     </div>
-    <div class="contacts">
-
-    </div>
-    <div class="news">
-
+    <div class="footer-time">
+      пн. — пт. 8:00 — 20:00
+      <br>
+      сб. 8:00 — 16:00
+      <br>
+      вс. выходной
     </div>
   </div>
 </body>
