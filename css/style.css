@@ -370,32 +370,32 @@ justify-content: space-around;
 }
 
 .subtile-2 {
-  background: url("../tiles/3.jpg");
+  background-image: url("../tiles/3.jpg");
   background-size: 100%;
 }
 
 .tile-1 {
-    background: url("../tiles/1.jpg");
+    background-image: url("../tiles/1.jpg");
     background-size: 100%;
 }
 
 .tile-3 {
-    background: url("../tiles/4.jpg");
+    background-image: url("../tiles/4.jpg");
     background-size: 100%;
 }
 
 .subtile-1 {
-  background: url("../tiles/2.jpg");
+  background-image: url("../tiles/2.jpg");
   background-size: 100%;
 }
 
 .subtile-4 {
-  background: url("../tiles/5.jpg");
+  background-image: url("../tiles/5.jpg");
   background-size: 100%;
 }
 
 .subtile-3 {
-  background: url("../tiles/6.jpg");
+  background-image: url("../tiles/6.jpg");
   background-size: 100%;
 }
 
